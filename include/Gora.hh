@@ -3,42 +3,24 @@
 
 #include "BrylaGeometryczna.hh"
 
-/*!
-*\file
-*\brief Definicja klasy Gora.
-*/
-
-/*!
-*\brief Klasa Gora.
-*Klasa definiuje pojecie Gory.
-*Klasa dziedziczy po klasie rodzica BrylaGeometryczna.
-*/
 class Gora : public BrylaGeometryczna
 {
 
 public:
-    /*!
-*\brief Konstruktor parametryczny klasy Gora.
-*/
-    Gora(Vector3D SrodekBryly = Vector3D(), double x = 50, double y = 50, double z = 50, std::string NazwaPliku = "../dat/Gora.dat");
-    /*!
-*\brief Tworzy kopie elementu klasy Gora.
-*/
-    Gora(Gora &pr);
+  double promien() { return (*wymiary)[2]; }
 
-    /*!
-*\brief Operator przypisania dal klasy Gora.
-*/
-    Gora &operator=(const Gora &other)
-    {
-        wymiaryBryly = other.wymiaryBryly;
-        WierzBryly = other.WierzBryly;
-        SrodekBryly = other.SrodekBryly;
-        NazwaPliku = other.NazwaPliku;
-        return *this;
-    }
+  Gora(Vector3D srodek = Vector3D(), double x = 50, double y = 50, double z = 50, std::string nazwa = "../datasets/Gora.dat");
 
-    double promien() { return (*wymiaryBryly)[2]; }
+  Gora(Gora &pr);
+
+  Gora &operator=(const Gora &other)
+  {
+    wymiary = other.wymiary;
+    wierz = other.wierz;
+    srodek = other.srodek;
+    nazwa = other.nazwa;
+    return *this;
+  }
 };
 
 #endif

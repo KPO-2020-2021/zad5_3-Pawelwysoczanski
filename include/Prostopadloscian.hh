@@ -3,24 +3,22 @@
 
 #include "BrylaGeometryczna.hh"
 
-/*!
-*\file
-*\brief Definicja klasy Prostopadloscian.
-*/
-
-/*!
-*\brief Klasa Prostopadloscian
-*Klasa definiuje pojecie Prostopadloscianu.
-*Klasa dziedziczy po klasie rodzica BrylaGeometryczna.
-*/
 class Prostopadloscian : public BrylaGeometryczna
 {
 
 public:
-  /*!
-  *\brief Konstruktor parametryczny klasy Prostopadloscian.
-  */
-  Prostopadloscian(Vector3D srodek = Vector3D(), double x = 100, double y = 50, double z = 50, std::string nazwa = "../dat/prostopadloscian.dat");
+    Prostopadloscian(Vector3D srodek = Vector3D(), double x = 50, double y = 50, double z = 50, std::string nazwa = "../datasets/prostopadloscian.dat");
+
+    Prostopadloscian(Prostopadloscian &pr);
+
+    Prostopadloscian &operator=(const Prostopadloscian &other)
+    {
+        wymiary = other.wymiary;
+        wierz = other.wierz;
+        srodek = other.srodek;
+        nazwa = other.nazwa;
+        return *this;
+    }
 };
 
 #endif
