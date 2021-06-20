@@ -1,3 +1,7 @@
+#include "Scena.hh"
+
+using namespace std;
+
 // Executables must have the following defined if the library contains
 // doctest definitions. For builds with this disabled, e.g. code shipped to
 // users, this can be left out.
@@ -46,23 +50,23 @@ int main()
 
      do
      {
-          s.Rysuj();
+          s.rysuj();
           std::cout << std::endl;
           std::cout << "Twoj wybor, m - menu> ";
           std::cin >> opcja;
           switch (opcja)
           {
           case 'a':
-               s.Interfejs('a');
+               s.interfejs('a');
                break;
           case 'p':
-               s.Interfejs('p');
+               s.interfejs('p');
                break;
           case 'd':
-               s.Interfejs('d');
+               s.interfejs('d');
                break;
           case 'u':
-               s.Interfejs('u');
+               s.interfejs('u');
                break;
           case 'm':
                std::cout << "a - wybierz aktywnego drona" << std::endl;
