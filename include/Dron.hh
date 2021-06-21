@@ -15,7 +15,7 @@
 /*!
 *\ 
 *Klasa definiuje pojecie Drona sklasdajacego sie z korpusu w postaci prostopadloscianu
-*Dziedziczy po klasie wirtualnej Obiekt_Secny oraz klasie enable_shared_from_this.
+*Dziedziczy po klasie Obiekt_Secny oraz klasie enable_shared_from_this.
 *oraz 4 rotorow zbudowanych z graniastoslupow.
 */
 class Dron : public Obiekt_Sceny, public std::enable_shared_from_this<Dron>
