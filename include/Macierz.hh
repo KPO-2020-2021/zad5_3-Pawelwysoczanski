@@ -5,18 +5,43 @@
 #include "Wektor.hh"
 #include <cmath>
 using namespace std;
+/*!
+*\file
+*\brief Definicja szablonu klasy Matrix.
+*/
 
+/*!
+*\brief Szablon klasy Matrix.
+* Definiuje pojecie Mcierzy jako szablonu o dowolnym wymiarze.
+*/
 template <int SIZE>
 class Matrix
 {
-
+  /*!
+*\brief Tablica przechowujaca rozmiar i wartosci macierzy.
+*/
   double Mac[SIZE][SIZE];
 
 public:
+  /*!
+*\brief Konstruktor bezparametryczny.
+*/
   Matrix();
+    /*!
+*\brief Funktor macierzy.
+*/
   double operator()(int index_x, int index_y) const;
+    /*!
+*\brief Funktor macierzy.
+*/
   double &operator()(int index_x, int index_y);
+    /*!
+*\brief Operator mozenia macierzy razy wektor.
+*/
   Vector<SIZE> operator*(Vector<SIZE> wsp);
+    /*!
+*\brief Operator mnozenia macierzy razy macierz
+*/
   Matrix<SIZE> operator*(Matrix<SIZE> wsp);
 };
 
