@@ -2,6 +2,10 @@
 
 Scena::Scena()
 {
+/*!
+*\brief 
+* Tworzy scene po ktorej poruszac sie beda drony.
+*/
 
   Lacze.ZmienTrybRys(PzG::TR_3D);
   nr_elem = 0;
@@ -83,11 +87,19 @@ Scena::Scena()
 
   Lacze.Rysuj();
 }
+/*!
+*\brief 
+*Rysuje Scene 
+*/
 void Scena::rysuj()
 {
 
   Lacze.Rysuj();
 }
+/*!
+*\brief 
+* Odpowiada za interfejs sterowania programem.
+*/
 bool Scena::interfejs(char opcja)
 {
 
@@ -234,7 +246,10 @@ bool Scena::interfejs(char opcja)
 
   return true;
 }
-
+/*!
+*\brief 
+* Usuwa tablice dronow.
+*/
 Scena::~Scena()
 {
   free(dno);

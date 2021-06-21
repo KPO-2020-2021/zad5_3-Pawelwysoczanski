@@ -1,5 +1,7 @@
 #include "Graniastoslup6.hh"
-
+/*!
+*\brief Konstruktor parametryczny klasy Graniastoslup6
+*/
 Graniastoslup6::Graniastoslup6(Vector3D srodek, double z, double promien, std::string nazwa)
 {
     double tab[] = {0, 0, z};

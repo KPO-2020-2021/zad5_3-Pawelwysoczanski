@@ -1,5 +1,8 @@
 #include "Prostopadloscian.hh"
-
+/*!
+  *\brief Konstruktor parametryczny klasy Prostopadloscian.
+  *Tworzy prostopaloscian o stalych wymiarach i zapisuje go w pliku.
+  */
 Prostopadloscian::Prostopadloscian(Vector3D srodek, double x,double y, double z,std::string nazwa)
 {
     double tab[]={x,y,z};
@@ -51,7 +54,9 @@ Prostopadloscian::Prostopadloscian(Vector3D srodek, double x,double y, double z,
   wierz.push_back(punkt);
 
 }
-
+/*!
+*\brief Tworzy kopie elementu klasy Prostopadloscian.
+*/
 Prostopadloscian::Prostopadloscian( Prostopadloscian& pr )
 {
    wymiary=pr.wymiary;

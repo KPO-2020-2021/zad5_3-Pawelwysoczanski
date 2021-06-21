@@ -1,6 +1,9 @@
 
 #include "Dron.hh"
-
+/*!
+*\brief 
+* Konstruktor tworzy model drona ktorego elementy skladowe zapisuje osobno do pliku zlozone z prostopadloscianu oraz graniastoslupow.
+*/
 Dron::Dron(int id, PzG::LaczeDoGNUPlota &Lacze, Vector3D pozycja) : Lacze(Lacze)
 {
     kat = 0;
@@ -25,7 +28,9 @@ Dron::Dron(int id, PzG::LaczeDoGNUPlota &Lacze, Vector3D pozycja) : Lacze(Lacze)
 
     this->droga = this->droga + pozycja;
 }
-
+/*!
+  *\brief Metoda ktora wykonuje operacje wznoszenia drona na wysokosc przelotu.
+  */
 void Dron::unoszenie(double droga)
 {
     Vector3D droga_o;
@@ -35,7 +40,9 @@ void Dron::unoszenie(double droga)
     kopia.translacja(obr);
     kopia.przesun(this->droga);
 }
-
+/*!
+  *\brief Metoda ktora wykonuje operacje Przesuniecia drona.
+  */
 void Dron::przesun(double droga)
 {
     Vector3D droga_o;
@@ -45,7 +52,9 @@ void Dron::przesun(double droga)
     kopia.translacja(obr);
     kopia.przesun(this->droga);
 }
-
+/*!
+  *\brief Metoda ktora wykonuje operacje Obrotu drona.
+  */
 void Dron::obrot(double kat)
 {
     this->kat += kat;
@@ -54,6 +63,9 @@ void Dron::obrot(double kat)
     kopia.translacja(obr);
     kopia.przesun(this->droga);
 }
+/*!
+  *\brief Metoda ktora wykonuje operacje Obrotow rotorow drona.
+  */
 void Dron::obrot_rotrow()
 {
     static int kat = 0;
@@ -82,14 +94,18 @@ void Dron::obrot_rotrow()
         kopia_wir[i].przesun(kopia[i * 2]);
     }
 }
-
+/*!
+  *\brief Metoda ktora wykonuje operacje zapisu drona do pliku.
+  */
 void Dron::zapisz()
 {
     kopia.zapisz();
     for (int i = 0; i < 4; i++)
         kopia_wir[i].zapisz();
 }
-
+/*!
+  *\brief Metoda ktora wykonuje operacje sterowania dronem.
+  */
 void Dron::sterowanie(std::list<std::shared_ptr<Obiekt_Sceny>> &Lista_elementow)
 {
     double droga;
@@ -194,6 +210,10 @@ Vector3D Dron::get_srodek() const
 {
     return kopia.get_srodek();
 }
+/*!
+*\brief
+* Metoda przy pomocy metody promien() sprawdza czy dron w czasie przelotu i ladowania nie koliduje z elementami znajudjacymi sie na scenie 
+*/
 bool Dron::czy_kolizja(shared_ptr<Obiekt_Sceny> ob)
 {
     std::shared_ptr<Dron> self = shared_from_this();
@@ -211,7 +231,9 @@ bool Dron::czy_kolizja(shared_ptr<Obiekt_Sceny> ob)
     }
     return false;
 }
-
+/*!
+  *\brief Metoda ktora wykonuje operacje rysowania trasy przelotu drona.   
+  */
 void Dron::okresl_droge(double droga, double kat)
 {
     std::cout << "Rysuje sciezke przelotu" << endl;
@@ -234,11 +256,4 @@ void Dron::okresl_droge(double droga, double kat)
         plik << droga_drona[i] << std::endl;
     }
     plik.close();
-}
-
-void Dron::usun()
-{
-    Lacze.UsunNazwePliku(orginal.get_nazwa().c_str());
-    for (int i = 0; i < 4; i++)
-        Lacze.UsunNazwePliku(org_wir[i].get_nazwa().c_str());
 }

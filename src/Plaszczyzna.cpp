@@ -1,6 +1,8 @@
 #include "Plaszczyzna.hh"
 
-// x 600, y 600 ,z 0
+/*!
+*\brief Konstruktor parametryczny klasy plaszczyzna.
+*/
 Plaszczyzna::Plaszczyzna(Vector3D wymiary, int gestosc_siatki, std::string nazwa)
 {
     this->nazwa = nazwa;
@@ -36,7 +38,9 @@ std::string Plaszczyzna::get_nazwa() const
 {
     return nazwa;
 }
-
+/*!
+*\brief Metoda ktora zapisuje plaszczyzne do pliku.
+*/
 void Plaszczyzna::zapisz()
 {
       std::fstream plik;
