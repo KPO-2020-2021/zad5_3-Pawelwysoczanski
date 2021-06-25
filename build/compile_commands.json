@@ -1,0 +1,82 @@
+[
+{
+  "directory": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build",
+  "command": "/usr/bin/c++   -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/include -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/main.dir/app/main.cpp.o -c /home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/app/main.cpp",
+  "file": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/app/main.cpp"
+},
+{
+  "directory": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build",
+  "command": "/usr/bin/c++   -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/include -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/example.cpp.o -c /home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/example.cpp",
+  "file": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/example.cpp"
+},
+{
+  "directory": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build",
+  "command": "/usr/bin/c++   -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/include -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o -c /home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/lacze_do_gnuplota.cpp",
+  "file": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/lacze_do_gnuplota.cpp"
+},
+{
+  "directory": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build",
+  "command": "/usr/bin/c++   -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/include -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/BrylaGeometryczna.cpp.o -c /home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/BrylaGeometryczna.cpp",
+  "file": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/BrylaGeometryczna.cpp"
+},
+{
+  "directory": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build",
+  "command": "/usr/bin/c++   -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/include -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Dron.cpp.o -c /home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Dron.cpp",
+  "file": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Dron.cpp"
+},
+{
+  "directory": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build",
+  "command": "/usr/bin/c++   -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/include -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Graniastoslup6.cpp.o -c /home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Graniastoslup6.cpp",
+  "file": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Graniastoslup6.cpp"
+},
+{
+  "directory": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build",
+  "command": "/usr/bin/c++   -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/include -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Macierz3x3.cpp.o -c /home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Macierz3x3.cpp",
+  "file": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Macierz3x3.cpp"
+},
+{
+  "directory": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build",
+  "command": "/usr/bin/c++   -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/include -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Plaszczyzna.cpp.o -c /home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Plaszczyzna.cpp",
+  "file": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Plaszczyzna.cpp"
+},
+{
+  "directory": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build",
+  "command": "/usr/bin/c++   -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/include -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Prostopadloscian.cpp.o -c /home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Prostopadloscian.cpp",
+  "file": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Prostopadloscian.cpp"
+},
+{
+  "directory": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build",
+  "command": "/usr/bin/c++   -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/include -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Scena.cpp.o -c /home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Scena.cpp",
+  "file": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Scena.cpp"
+},
+{
+  "directory": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build",
+  "command": "/usr/bin/c++   -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/include -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Wektor3D.cpp.o -c /home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Wektor3D.cpp",
+  "file": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Wektor3D.cpp"
+},
+{
+  "directory": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build",
+  "command": "/usr/bin/c++   -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/include -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Gora.cpp.o -c /home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Gora.cpp",
+  "file": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Gora.cpp"
+},
+{
+  "directory": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build",
+  "command": "/usr/bin/c++   -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/include -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Gran.cpp.o -c /home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Gran.cpp",
+  "file": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Gran.cpp"
+},
+{
+  "directory": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build",
+  "command": "/usr/bin/c++   -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/include -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/program.dir/src/Plaskowyz.cpp.o -c /home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Plaskowyz.cpp",
+  "file": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/src/Plaskowyz.cpp"
+},
+{
+  "directory": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build/tests",
+  "command": "/usr/bin/c++   -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/include -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/main.cpp.o -c /home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/tests/main.cpp",
+  "file": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/tests/main.cpp"
+},
+{
+  "directory": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build/tests",
+  "command": "/usr/bin/c++   -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/build -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/include -I/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/external/doctest/doctest  -g   -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17 -o CMakeFiles/unit_tests.dir/dummy.cpp.o -c /home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/tests/dummy.cpp",
+  "file": "/home/pawe/Dokumenty/zad5_3-Pawelwysoczanski-master/tests/dummy.cpp"
+}
+]

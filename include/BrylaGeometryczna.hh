@@ -15,7 +15,7 @@
 /*!
 *\brief Klasa BrylaGeometryczna
 *Klasa definiuje pojecie bryly geometryacznej.
-*Dziedziczy po klasie Obiekt_Secny oraz klasie enable_shared_from_this.
+*Dziedziczy po klasie wirtualnej Obiekt_Secny oraz klasie enable_shared_from_this.
 *Klasa jest rodzicem dla klas dziedzicznych Prostopadloscian i Graniastoslup.
 */
 class BrylaGeometryczna : public Obiekt_Sceny, public std::enable_shared_from_this<BrylaGeometryczna>

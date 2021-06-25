@@ -21,6 +21,7 @@ Scena::Scena()
   bool kolizja = false;
   for (int i = 0; i < 4; i++)
   {
+    cout << "dupa" << endl;
     srod[0] = rand() % 400 - 200;
     srod[1] = rand() % 400 - 200;
     srod[2] = 50;
